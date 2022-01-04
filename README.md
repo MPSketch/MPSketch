@@ -8,7 +8,7 @@ Preliminaries
 
     2. uncompress the dataset Yelp
         'cd data/yelp'
-        'cat yelp.tar.gz* | tar -zxv'
+        'cat yelp.tar.gz* | tar -zxv --strip-components 1'
 
     3. confirm that the gcc library '-lgsl' has been installed. if no,
         'sudo apt-get install libgsl-dev'
